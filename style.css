@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+body {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(img/moutains-8445767_1280.jpg);
+}
+#city-list {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  color: white;
+}
+#city-list li {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+}
+
+#weather-info {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+}
+.prise {
+  height: 400px;
+  position: absolute;
+  bottom: -600px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 30%;
+  background-color: white;
+}
+.prise-container {
+  display: flex;
+}
+.prise h1 {
+  text-align: center;
+}
